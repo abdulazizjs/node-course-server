@@ -37,5 +37,5 @@ app.get('/about', (req, res) => {
 
 app.listen(3000, (err) => {
   if(err) throw err;
-  console.log('Server is running on port 3000');
+  console.log('Hey, Server is running on port 3000');
 });
